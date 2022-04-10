@@ -1,6 +1,39 @@
-<div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
     <app-logo-ap></app-logo-ap>
-</div>
-<div>
-    <app-banner></app-banner>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Acerca de Mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Educacion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Proyectos</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        <form class="container-fluid justify-content-start">
+          <button class="btn btn-sm btn-outline-secondary me-2" type="button">Log In</button>
+        </form>
+      </span>
+    </div>
+  </div>
+</nav>
+<div class="row">
+  <app-banner></app-banner>
 </div>
