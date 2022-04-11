@@ -11,6 +11,9 @@ import { BannerComponent } from './components/banner/banner.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { AccordionExComponent } from './components/accordion-ex/accordion-ex.component';
+import { EducationComponent } from './components/education/education.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +25,14 @@ import { AccordionExComponent } from './components/accordion-ex/accordion-ex.com
     BannerComponent,
     AboutMeComponent,
     ExperienceComponent,
-    AccordionExComponent
+    AccordionExComponent,
+    EducationComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

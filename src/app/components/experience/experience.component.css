@@ -1,8 +1,8 @@
 div{
     text-align: right;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #e17b8d; 
+    padding: 50px;
+    background-color: #e2b700; 
+    box-sizing: border-box;
 }
 h3, p{       
     color: white;
