@@ -9,6 +9,8 @@ import { SocialComponent } from './components/social/social.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { AccordionExComponent } from './components/accordion-ex/accordion-ex.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     SocialComponent,
     FooterComponent,
     BannerComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    ExperienceComponent,
+    AccordionExComponent
   ],
   imports: [
     BrowserModule,
