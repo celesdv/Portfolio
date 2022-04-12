@@ -1,3 +1,7 @@
 h6 {
-    color: white;
+    color: #e17b8d;
+}
+.borde {
+    border: solid 1px #e17b8d;
+    background-color: white;
 }
