@@ -1,0 +1,16 @@
+#proyects{
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #e2b700;
+}
+h3{       
+    color: white ;
+}
+h5 {
+    color: #e2b700;
+}
+.exterior{
+    padding: 10px;
+    box-sizing: border-box;
+}
