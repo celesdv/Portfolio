@@ -14,6 +14,8 @@ import { AccordionExComponent } from './components/accordion-ex/accordion-ex.com
 import { EducationComponent } from './components/education/education.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './components/skills/skills.component';
+import { HardSkillsComponent } from './components/hard-skills/hard-skills.component';
+import { SoftSkillsComponent } from './components/soft-skills/soft-skills.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { SkillsComponent } from './components/skills/skills.component';
     ExperienceComponent,
     AccordionExComponent,
     EducationComponent,
-    SkillsComponent
+    SkillsComponent,
+    HardSkillsComponent,
+    SoftSkillsComponent
   ],
   imports: [
     BrowserModule,
